@@ -22,7 +22,9 @@ namespace md5 {
      * NOTE: the following is assumed to generate a 32-bit unsigned data
      * type.
      */
+#ifndef UINT32_MAX
     const unsigned int UINT32_MAX = 4294967295U;
+#endif
 
     /*
      * T denotes the integer part of the i-th element of the function:

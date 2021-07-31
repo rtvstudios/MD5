@@ -2,7 +2,6 @@
 #include <cstring>
 #include <iostream>
 
-#include "conf.h"
 #include "md5.h"
 #include "md5_loc.h"
 
